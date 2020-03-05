@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<title>index</title>
+<meta charset="utf-8">
+<style>
+  .nav {
+    font-size: 25px;
+
+    display: flex;
+
+    height: 70px;
+    border-bottom: 2px solid black;
+    align-items: center;  /*교차축(cross-axis)에서 items의 정렬 방법*/
+  }
+  .nav-right-items {
+
+    display: flex;
+    margin-left: auto;
+
+  }
+  .nav-item {
+    display: inline-block;
+    background: #FFC0CB;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  }
+ .company-name {
+   margin-left: 50px;
+ }
+ .main {
+   text-align: center;
+
+ }
+ .title {
+   margin-top: 5rem;
+   font-weight: bold;
+   font-style: italic;
+ }
+ #wrap {
+   width: 100%;
+   overflow: hidden;            /*페이지 크기가 줄어들었을때 글자를 숨김*/
+   max-width: 1000px;           /*페이지의 가로 최대크기*/
+   margin: 0 auto;              /*상하는 0의여백 좌우는 자동으로 여백지정*/
+   text-align: left;
+   position: relative;
+   background: #FFF0F5;
+   padding: 40px;
+   margin-bottom: 50px;
+ }
+ a{
+   text-decoration: none;
+   color: black;
+ }
+ .mainimg {
+   display: block;
+   margin: 50px auto;
+   width: 500px;
+   height: auto;
+   border-radius: 5%;
+ }
+
+</style>
+</head>
+<body>
+  <div id="wrap">
+    <div class="nav">
+      <div class="company-name">
+        <a href="#">
+        <img src="company-name.png" alt="회사로고">
+        </a>
+      </div>
+    <div class="nav-right-items">
+      <div class="nav-item"><a href="#">HOME</a></div>
+      <div class="nav-item"><a href="#">Templates</a></div>
+      <div class="nav-item"><a href="#">Freebies</a></div>
+      <div class="nav-item"><a href="#">close</a></div>
+    </div>
+  </div>
+  
+  <div class="main">
+  <h1 class="title">정보리</h1>
+  <h2 class="subtitle" font-size="17px" font-weight="90px">식당에서 브이를 하던 모습을 촬영하였던 것이다.</h2>
+  <p style="font-size:15px">카메라를 의식한 모습이다</p>
+  </div>
+  <div class="imgstation">
+    <img class="mainimg" src="bori.jpg" alt="브이로그">
+  </div>
+</div>
+</body>
+</html>
